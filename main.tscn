@@ -79,9 +79,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, -2.5)
 mesh = SubResource("QuadMesh_3cvwn")
 script = ExtResource("8_gap3h")
 
-[node name="Node" type="Node" parent="Screen"]
-
-[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="Screen/Node"]
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="Screen"]
 visible = false
 offset_right = 1280.0
 offset_bottom = 720.0
